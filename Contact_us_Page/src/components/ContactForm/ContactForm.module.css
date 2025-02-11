@@ -2,6 +2,7 @@
     display: flex;
     max-width: 1280px;
     margin: 0 auto;
+    /* margin-top: 20px; */
 }
 
 .top_btn{
@@ -13,6 +14,11 @@
     flex-direction: column;
     gap:24px
     
+}
+.contact_form form{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
 }
 .form_container{
     display: flex;
