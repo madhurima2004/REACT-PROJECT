@@ -11,7 +11,7 @@ const GamePlay = () => {
     const [score, setScore]=useState(0);
     const [selectedNumber, setSelectedNumber]= useState();
     const [currentDice, setCurrentDice]=useState(1);
-    cont[error, setError]=useState("");
+    const[error, setError]=useState("");
 
     const generateRandomNumber =(min, max)=>{
       return Math.floor(Math.random() * (max-min)+min);
