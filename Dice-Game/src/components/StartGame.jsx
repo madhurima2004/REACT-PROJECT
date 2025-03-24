@@ -1,4 +1,5 @@
 import styled from "styled-components";
+// import { Button } from "./styled/button";
 const StartGame = ({toggle}) => {
   return (
     <Container>
